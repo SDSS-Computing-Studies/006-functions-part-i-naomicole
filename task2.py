@@ -7,10 +7,10 @@ The return value is the largest value in the list
 (2 points)
 """
 
-def largest():
-    largest.sort()
-    answer=largest[-1]
+def largest(n):
+    n.sort()
+    answer=n[-1]
     return answer
 
-x=largest([1,2,3,4,5])
+x=largest([3,6,1,4,2])
 print(x)
