@@ -11,20 +11,23 @@ Return the missing side
 import math
 
 def hypotenuse(a,b,c):
-    if False:
+    if c==True:
         d=(a**2)+(b**2)
         answer= int(math.sqrt(d))
         return answer
 
-    elif True:
-        a,b.sort
-        n=a,b[0]
-        m=a,b[1]
-        o=(m**2)-(n**2)
-        answer=int(math.sqrt(o))
+    elif c==False:
+        myList=[]
+        myList.append(a)
+        myList.append(b)
+        myList.sort()
+        n=myList[0]
+        m=myList[1]
+        p=(m**2)-(n**2)
+        answer=math.sqrt(p)
         return answer
 
-x=hypotenuse(3,4,False)
+x=hypotenuse(13,5,False)
 print(x)
 
 
